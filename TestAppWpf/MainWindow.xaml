@@ -1,0 +1,20 @@
+﻿<Window x:Class="TestAppWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestAppWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="1025">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="61" Margin="31,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="948"/>
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" Margin="111,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.234,0.483" Click="btnSelect_Click"/>
+        <CheckBox x:Name="chkfirstRowNames" Content="first row contains column names" HorizontalAlignment="Left" Margin="501,185,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Margin="758,182,0,0" VerticalAlignment="Top" Width="75" Click="btnProcess_Click"/>
+
+        <ComboBox x:Name="sheetCombo" HorizontalAlignment="Left" Margin="77,246,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="sheetCombo_SelectionChanged"/>
+        <Label x:Name="Sheet" Content="Choose Sheet" HorizontalAlignment="Left" Margin="276,244,0,0" VerticalAlignment="Top" Width="83"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="31,296,0,0" VerticalAlignment="Top" Height="145" Width="948"/>
+
+    </Grid>
+</Window>

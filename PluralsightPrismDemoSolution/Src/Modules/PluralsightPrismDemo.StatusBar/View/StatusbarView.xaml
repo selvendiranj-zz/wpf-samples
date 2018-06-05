@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="PluralsightPrismDemo.Statusbar.View.StatusbarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PluralsightPrismDemo.Statusbar.View"
+             mc:Ignorable="d" d:DesignWidth="352" Height="27.346">
+    <StatusBar>
+        <TextBlock Name="lblMessage" Text="{Binding Message}" Width="213"></TextBlock>
+    </StatusBar>
+</UserControl>

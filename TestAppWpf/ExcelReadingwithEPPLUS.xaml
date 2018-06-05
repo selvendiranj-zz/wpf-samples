@@ -1,0 +1,21 @@
+﻿<Window x:Class="TestAppWpf.ExcelReadingwithEPPLUS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestAppWpf"
+        mc:Ignorable="d"
+        Title="ExcelReadingwithEPPLUS" Height="740" Width="1025">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="65" Margin="64,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="889"/>
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.594,6.645" Margin="127,141,0,0" Click="btnSelect_Click"/>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="704,141,0,0" Click="btnProcess_Click"/>
+        <ComboBox x:Name="sheetCombo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="486,205,0,0" SelectionChanged="sheetCombo_SelectionChanged">
+           
+        </ComboBox>
+        <Label x:Name="label" Content="Choose Sheet" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="306,203,0,0" Width="138"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="64,255,0,0" Height="415" Width="922" AutoGeneratingColumn="dataGrid_AutoGeneratingColumn"/>
+
+
+    </Grid>
+</Window>

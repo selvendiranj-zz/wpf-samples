@@ -1,0 +1,11 @@
+﻿<Application x:Class="WpfModelViewDemoApplication.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfModelViewDemoApplication"
+             StartupUri="Views\MainView.xaml"
+             DispatcherUnhandledException="APP_DispatcherUnhandledException"
+             Startup="OnStartup">
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>
