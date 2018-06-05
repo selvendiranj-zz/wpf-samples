@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("ExcelPivot")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CTS")]
+[assembly: AssemblyCompany("Company")]
 [assembly: AssemblyProduct("ExcelPivot")]
-[assembly: AssemblyCopyright("Copyright © CTS 2015")]
+[assembly: AssemblyCopyright("Copyright © Company 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

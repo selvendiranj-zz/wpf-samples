@@ -33,18 +33,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>..\..\..\..\..\..\TFS\Applications\TDBank.MOS\Lib\Microsoft.Practices.Unity.dll</HintPath>
+      <HintPath>.\..\..\Libs\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Prism, Version=6.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\TFS\Applications\TDBank.MOS\Lib\Prism\Prism.dll</HintPath>
+      <HintPath>.\..\..\Libs\Prism\Prism.dll</HintPath>
     </Reference>
     <Reference Include="Prism.Unity.Wpf">
-      <HintPath>..\..\..\..\..\..\TFS\Applications\TDBank.MOS\Lib\Prism\Prism.Unity.Wpf.dll</HintPath>
+      <HintPath>.\..\..\Libs\Prism\Prism.Unity.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Prism.Wpf, Version=6.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\TFS\Applications\TDBank.MOS\Lib\Prism\Prism.Wpf.dll</HintPath>
+      <HintPath>.\..\..\Libs\Prism\Prism.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
